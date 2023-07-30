@@ -1,0 +1,13 @@
+server:
+    port: 90
+
+logging:
+  level:
+    root: DEBUG
+    com.sun.mail.smtp: DEBUG
+    org.springframework: INFO
+    hu.wfs.vsm.tmp.TesztRest: INFO
+    org.springframework.web.filter.CommonsRequestLoggingFilter: INFO    
+    org.springframework.security: INFO
+    hu.wfs.lib.halozat.Levelezes: DEBUG
+   
